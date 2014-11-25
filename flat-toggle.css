@@ -1,0 +1,70 @@
+.flat-toggle {
+    width: 32px;
+    border-radius: 4px;
+    height: 10px;
+    background-color: #DDD;
+    position: relative;
+    margin: 20px 0;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.flat-toggle:after {
+    border-radius: 100%;
+    background-color: #ADADAD;
+    position: absolute;
+    left: 0;
+    top: -3px;
+    width: 15px;
+    height: 15px;
+    content: '';
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translateX(0);
+     transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+
+.flat-toggle > span {
+    margin-left: 45px;
+    position: relative;
+    top: -2px;
+    color: #666;
+    white-space: nowrap;
+    display: block;
+    cursor: pointer;
+}
+
+.flat-toggle:hover {
+    cursor: pointer;
+}
+
+.flat-toggle:hover span {
+    color: black;
+    cursor: pointer;
+}
+
+.flat-toggle.on {
+    background-color: #8CE2FF;
+    transform: translate3d(0,0,0);
+}
+
+.flat-toggle.on:hover span {
+    color: #00A3D9;
+    cursor: pointer;
+}
+
+.flat-toggle.on:after {
+    background-color: #00A3D9;
+    -webkit-transform: translate(17px);
+    -ms-transform: translate(17px);
+    transform: translateX(17px);
+}
+
+.flat-toggle.on > span {
+    color: #00A3D9;
+}
