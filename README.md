@@ -3,6 +3,10 @@ Flat-toggle-button
 
 Simple and cool toggle button made with HTML5, CSS3 and jQuery.
 
+<h3>Live demo</h3>
+See it in action! http://codepen.io/davidmaillo/pen/VYLWpj
+In addition, demo file is included (demo.html)
+
 <h3>Feature list</h3>
 * Flat style
 * Smooth color transition
@@ -23,6 +27,6 @@ Import flat-toggle.css, jQuery and flat-toggle.js
        <span>Toggle on</span>
     </div>
     
-<h3>Live demo</h3>
-See it in action! http://codepen.io/davidmaillo/pen/VYLWpj
-In addition, demo file is included (demo.html)
+<h3>Contribution</h3>
+Comments and commits are welcome.
+Thanks!
