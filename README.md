@@ -16,7 +16,7 @@ In addition, demo file is included (demo.html)
 * Hit area on both toggler and text
 
 <h3>Integration example</h3>
-Import flat-toggle.css, jQuery and flat-toggle.js
+Import flat-toggle.css, jQuery and flat-toggle.js. Then just create a DIV with a SPAN inside, like this:
 
     <div class="flat-toggle">
        <span>Toggle off</span>
