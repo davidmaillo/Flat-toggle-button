@@ -18,6 +18,7 @@ In addition, demo file is included (demo.html)
 <h3>Integration example</h3>
 Import flat-toggle.css, jQuery and flat-toggle.js. Then just create a DIV with a SPAN inside, like this:
 
+```html
     <div class="flat-toggle">
        <span>Toggle off</span>
     </div>
@@ -26,6 +27,7 @@ Import flat-toggle.css, jQuery and flat-toggle.js. Then just create a DIV with a
     <div class="flat-toggle on">
        <span>Toggle on</span>
     </div>
+```
     
 <h3>Contribution</h3>
 Comments and commits are welcome.
